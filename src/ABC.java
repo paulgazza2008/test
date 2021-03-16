@@ -3,7 +3,7 @@ import java.util.regex.Pattern;
 public class ABC {
     public static void main(String[] args) {
 
-        String input = "2[xyz]4[xy]z";
+        String input = "3[xyz]4[xy]z";
         String output = "xyzxyzxyzxyxyxyxyz";
 
         Pattern pattern = Pattern.compile("[\\[ ,.!?\\]]");
